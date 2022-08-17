@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&family=Outfit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@100&display=swap');
+
+body {
+ background-color:hsl(0, 0%, 95%);
+ font-size: 15px;
+}
+* h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+}
+.cards {
+    margin-left:20%;
+    display: flex;
+}
+.orange {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top:100px;
+    padding: 30px;
+    background-color: hsl(31, 77%, 52%);
+    width:20%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: left;
+}
+.orange .a p{
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 25px;
+ padding:5%;
+ width:fit-content;
+ padding-left:30px;
+ padding-right:30px;
+}
+.orange .a{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(31, 77%, 52%);
+    border-radius: 25px;
+    width:fit-content;
+    margin-left: 30px;
+}
+.orange .a p:hover{
+    background-color:hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+}
+.darkcyan {
+    margin-top: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+        padding: 30px;
+        background-color: hsl(184, 100%, 22%);
+        width: 20%;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-bottom: 30px;
+        text-align: left;
+}
+.darkcyan .a p {
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 25px;
+    padding: 5%;
+        width: fit-content;
+        padding-left: 30px;
+        padding-right: 30px;
+   
+}
+.darkcyan .a {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border-radius: 25px;
+    width: fit-content;
+    margin-left: 30px;
+}
+.darkcyan .a:hover {
+    background-color:hsl(184, 100%, 22%) ;
+    color: hsl(0, 0%, 95%);
+}
+.verydarkcyan {
+    margin-top: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+        padding: 30px;
+        background-color: hsl(179, 100%, 13%);
+        width: 20%;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-bottom: 30px;
+        text-align: left;
+}
+.verydarkcyan .a p{
+    border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 25px;
+    padding: 5%;
+        width: fit-content;
+        padding-left: 30px;
+        padding-right: 30px;
+       
+}
+.verydarkcyan .a {
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(179, 100%, 13%) ;
+    border-radius: 25px;
+    width: fit-content;
+    margin-left: 30px;
+}
+.verydarkcyan .a:hover {
+ background-color:hsl(179, 100%, 13%) ;
+ color:hsl(0, 0%, 95%);
+}
